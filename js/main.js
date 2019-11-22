@@ -19,14 +19,14 @@ const subDownloads = [
     { item: '--' },
     { item: 'download File three', func: () => console.log('file three') },
     { item: 'download File four', func: () => console.log('file four') }
-]
+];
 const subTheme = [
     { item: 'Themes' },
     { item: 'red', func: () => { mynav.background = 'red'; mynav.color = 'yellow' } },
     { item: 'blue', func: () => { mynav.background = 'blue'; mynav.color = 'white' } },
     { item: 'yellow', func: () => { mynav.background = 'yellow'; mynav.color = 'black' } },
     { item: 'reset', func: () => { mynav.background = 'rgba(0,0,40,0.5)'; mynav.color = 'white' } }
-]
+];
 const MENUE = {
     items: [
         { item: 'Home', func: Home, disabled: false },
