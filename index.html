@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MyNav</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/js/fontawesome.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/js/solid.min.js"></script>
+    <script src="./node_modules/mynav/mynav.js"></script>
+  </head>
+
+  <body>
+    <mynav></mynav>
+
+    <section id="home">
+      <div class="box">HOME</div>
+    </section>
+    <section id="about">
+      <div class="box">ABOUT</div>
+    </section>
+
+    <form class="formBox">
+      <div class=" form-group">
+        <label for="username">username:</label>
+        <input type="text" palceholder="username" name="password" />
+      </div>
+      <div class="form-group">
+        <label for="password">password:</label>
+        <input type="password" palceholder="username" name="password" />
+      </div>
+
+      <input type="submit" value="Login" id="id" />
+    </form>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: arial, sans-serif;
+}
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+#home {
+  background: url('../img/home.jpg') no-repeat center;
+  background-size: cover;
+  color: white;
+}
+#about {
+  background: url('../img/about.jpg') no-repeat center;
+  background-size: cover;
+  color: white;
+  display: none;
+}
+.box {
+  background-color: rgba(31, 30, 30, 0.5);
+  text-align: center;
+  font-size: 6em;
+  font-style: italic;
+  padding: 20px 30px;
+  border: 2px solid white;
+}
+.formBox {
+  position: fixed;
+  display: none;
+  top: 50px;
+  right: 6px;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 15px 15px 15px;
+  background-color: rgb(79, 73, 168);
+  border: rgb(230, 230, 230) solid 1px;
+}
+.form-group {
+  height: 30px;
+}
+.form-group label {
+  display: inline-block;
+  padding: 3px 3px;
+  width: 150px;
+  color: white;
+  background: rgb(70, 70, 70);
+}
+
+input {
+  width: 150px;
+}
+#id {
+  align-self: flex-end;
+}
